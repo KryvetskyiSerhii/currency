@@ -83,4 +83,16 @@
 .formInput:focus, .formSelect:focus {
   outline: none;
 }
+
+@media (min-width: 300px) and (max-width: 575px) {
+  .container {
+    width: 90vw;
+  }
+  .formBlock {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
 /*# sourceMappingURL=Main.module.css.map */
